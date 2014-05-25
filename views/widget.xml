@@ -1,0 +1,5 @@
+<Alloy>
+	<TextArea id="textarea" onFocus="onFocus" onBlur="onBlur" onChange="onChange">
+		<Label id="label" class="h2" platform="ios" />
+	</TextArea>
+</Alloy>

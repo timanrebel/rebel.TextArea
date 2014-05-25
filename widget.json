@@ -1,0 +1,13 @@
+{
+	"id": "rebel.TextArea",
+	"name": "Cross-platform TextArea",
+	"description": "Cross-platform TextArea, offering hint text on all platforms",
+	"author": "Timan Rebel (Rebelcorp)",
+	"version": "1.0",
+	"copyright": "Copyright (c) 2014",
+	"license": "MIT License",
+	"min-alloy-version": "1.0",
+	"min-titanium-version": "2.1",
+	"tags": "",
+	"platforms": "android,blackberry,ios,mobileweb,tizen"
+}
