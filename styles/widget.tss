@@ -2,7 +2,6 @@
 
 "Label": {
 	text: 'Default entry',
-	top: 8,
 	left: 8,
 	color: '#ccc'
 }

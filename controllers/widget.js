@@ -7,10 +7,18 @@ _.extend(this, {
 		$.value = '';
 
 		if (OS_IOS)
-			$.label.applyproperties({
+			$.label.applyProperties({
 				text: config.hintText,
 				font: config.font
 			});
+	},
+
+	setValue: function(value) {
+		$.textarea.value = value;
+		$.value = value;
+
+		if($.textarea.value.length)
+			$.label.hide();
 	},
 
 	focus: function() {
