@@ -61,4 +61,6 @@ function onBlur(evt) {
 
 function onChange(evt) {
 	$.value = this.value;
+
+	$.trigger(evt.type, evt);
 }
