@@ -37,6 +37,10 @@ _.extend(this, {
 		$.off(type, callback);
 	},
 
+	applyProperties: function(config) {
+		$.textarea.applyProperties(config);
+	},
+
 	destruct: function() {
 		$.off();
 	}
