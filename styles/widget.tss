@@ -1,7 +1,6 @@
 "TextArea": {}
 
-"Label": {
-	text: 'Default entry',
+"#label": {
 	left: 8,
 	color: '#ccc'
 }
