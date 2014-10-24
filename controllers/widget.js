@@ -17,7 +17,7 @@ _.extend(this, {
 		$.textarea.value = value;
 		$.value = value;
 
-		if($.textarea.value.length)
+		if(OS_IOS && $.textarea.value.length)
 			$.label.hide();
 	},
 
