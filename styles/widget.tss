@@ -1,6 +1,7 @@
 "TextArea": {}
 
 "#label": {
+        top: 8,
 	left: 8,
 	color: '#ccc'
 }
