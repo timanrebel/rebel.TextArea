@@ -6,19 +6,21 @@ _.extend(this, {
 
 		$.value = '';
 
-		if (OS_IOS)
+		if (OS_IOS) {
 			$.label.applyProperties({
 				text: config.hintText,
 				font: config.font
 			});
+		}
 	},
 
 	setValue: function(value) {
 		$.textarea.value = value;
 		$.value = value;
 
-		if(OS_IOS && $.textarea.value.length)
+		if(OS_IOS && $.textarea.value.length) {
 			$.label.hide();
+		}
 	},
 
 	focus: function() {
@@ -56,8 +58,9 @@ function onFocus(evt) {
 
 function onBlur(evt) {
 	if (OS_IOS) {
-		if (!this.hasText())
+		if (!this.hasText()) {
 			$.label.show();
+		}
 	}
 
 	$.trigger(evt.type, evt);
