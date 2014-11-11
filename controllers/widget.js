@@ -49,25 +49,23 @@ _.extend(this, {
 });
 
 function onFocus(evt) {
-	if (OS_IOS) {
-		$.label.hide();
-	}
-
 	$.trigger(evt.type, evt);
 }
 
 function onBlur(evt) {
-	if (OS_IOS) {
-		if (!this.hasText()) {
-			$.label.show();
-		}
-	}
-
 	$.trigger(evt.type, evt);
 }
 
 function onChange(evt) {
 	$.value = this.value;
+	
+	if (OS_IOS){
+	    if (this.value.length > 0){
+	        $.label.hide();
+	    } else{
+	        $.label.show();
+	    }
+	}
 
 	$.trigger(evt.type, evt);
 }
