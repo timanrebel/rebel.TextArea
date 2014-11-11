@@ -3,7 +3,7 @@
 	"name": "Cross-platform TextArea",
 	"description": "Cross-platform TextArea, offering hint text on all platforms",
 	"author": "Timan Rebel",
-	"version": "1.1",
+	"version": "1.2",
 	"copyright": "Timan Rebel (c) 2014",
 	"license": "MIT License",
 	"min-alloy-version": "1.0",
